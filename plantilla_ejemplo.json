@@ -1,0 +1,56 @@
+{
+  "name": "Examen Est\u00e1ndar 10 Items",
+  "max_score_scale": 10.0,
+  "items": [
+    {
+      "item_number": 1,
+      "weight": 1.0,
+      "description": "Pregunta 1"
+    },
+    {
+      "item_number": 2,
+      "weight": 1.0,
+      "description": "Pregunta 2"
+    },
+    {
+      "item_number": 3,
+      "weight": 1.0,
+      "description": "Pregunta 3"
+    },
+    {
+      "item_number": 4,
+      "weight": 1.0,
+      "description": "Pregunta 4"
+    },
+    {
+      "item_number": 5,
+      "weight": 1.0,
+      "description": "Pregunta 5"
+    },
+    {
+      "item_number": 6,
+      "weight": 1.0,
+      "description": "Pregunta 6"
+    },
+    {
+      "item_number": 7,
+      "weight": 1.0,
+      "description": "Pregunta 7"
+    },
+    {
+      "item_number": 8,
+      "weight": 1.0,
+      "description": "Pregunta 8"
+    },
+    {
+      "item_number": 9,
+      "weight": 1.0,
+      "description": "Pregunta 9"
+    },
+    {
+      "item_number": 10,
+      "weight": 1.0,
+      "description": "Pregunta 10"
+    }
+  ]
+}

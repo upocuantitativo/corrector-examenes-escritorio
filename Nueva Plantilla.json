@@ -1,0 +1,56 @@
+{
+  "name": "Nueva Plantilla",
+  "max_score_scale": 10.0,
+  "items": [
+    {
+      "item_number": 1,
+      "weight": 1.0,
+      "description": "1"
+    },
+    {
+      "item_number": 2,
+      "weight": 1.0,
+      "description": "2"
+    },
+    {
+      "item_number": 3,
+      "weight": 1.0,
+      "description": "3"
+    },
+    {
+      "item_number": 4,
+      "weight": 1.0,
+      "description": "4"
+    },
+    {
+      "item_number": 5,
+      "weight": 1.0,
+      "description": "5"
+    },
+    {
+      "item_number": 6,
+      "weight": 1.0,
+      "description": "6"
+    },
+    {
+      "item_number": 7,
+      "weight": 1.0,
+      "description": "7"
+    },
+    {
+      "item_number": 8,
+      "weight": 1.0,
+      "description": "8"
+    },
+    {
+      "item_number": 9,
+      "weight": 1.0,
+      "description": "9"
+    },
+    {
+      "item_number": 10,
+      "weight": 1.0,
+      "description": "10"
+    }
+  ]
+}

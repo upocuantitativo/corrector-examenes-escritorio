@@ -1,0 +1,20 @@
+{
+  "exams": {
+    "Modelo 1 (Duración subrayada)": {
+      "name": "Modelo 1 (Duración subrayada)",
+      "keys": ["a", "a", "b", "a", "a", "a", "c", "b", "a", "a"],
+      "page_mode": 2,
+      "calib": {},
+      "master_photos": {}
+    },
+    "Modelo 2 (Duración sin subrayar)": {
+      "name": "Modelo 2 (Duración sin subrayar)",
+      "keys": ["b", "a", "a", "c", "b", "c", "a", "c", "b", "b"],
+      "page_mode": 2,
+      "calib": {},
+      "master_photos": {}
+    }
+  },
+  "order": ["Modelo 1 (Duración subrayada)", "Modelo 2 (Duración sin subrayar)"],
+  "cur": "Modelo 1 (Duración subrayada)"
+}

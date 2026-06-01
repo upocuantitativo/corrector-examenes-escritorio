@@ -1,0 +1,64 @@
+# Base de datos
+*.db
+*.db-journal
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exportaciones
+*.xlsx
+*.xls
+*.csv
+
+# Logs
+*.log
+
+# Plantillas de usuario (opcional)
+# Descomenta si no quieres versionar las plantillas
+# *.json
+# !plantilla_ejemplo.json
+
+# --- Añadido 2026-06: repo de la versión de escritorio ---
+# App móvil PWA (tiene su propio repositorio en GitHub)
+corrector_movil/
+
+# Build del APK: keystore PRIVADO + artefactos grandes
+apk_build/
+*.apk
+*.keystore
+*.jks
+
+# Datos generados del corrector tipo test (claves de examen del usuario)
+examenes_test.json
+
+# Herramientas / locales
+.claude/
+.claudesettings.local.json
+.playwright-mcp/
+
+# Imágenes/PDF de exámenes reales (contienen nombre y DNI de alumnos)
+examen/
+*.jpeg
+*.jpg
