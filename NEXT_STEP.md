@@ -34,6 +34,18 @@ concepto a la **versión de escritorio** del proyecto y se ha generado un **APK*
   Keystore `android.keystore` (alias `android`, pass `corrector`).
 - APK firmado de salida: ver `corrector-examenes.apk` en la carpeta del proyecto.
 
+### Arreglo de Windows + publicación (añadido)
+
+- **`console_utf8.py`** (nuevo): pone stdout/stderr en UTF-8 al importarse;
+  importado al inicio de los módulos que imprimen símbolos (✓/✗/✅/⚠). Corrige
+  los `UnicodeEncodeError` de la consola cp1252 de Windows. **Tests: 81/81 OK**
+  en Windows (antes 20 fallos por emojis; eran del entorno, no regresión).
+- **Repo público del escritorio**:
+  https://github.com/upocuantitativo/corrector-examenes-escritorio
+  (cuenta `upocuantitativo`). EXCLUIDOS por privacidad: `alumnos.csv`, `*.db`,
+  carpeta `examen/` (imágenes con nombre/DNI), keystore, APK y `corrector_movil/`
+  (que tiene su propio repo). 59 ficheros, verificado sin datos sensibles.
+
 ### Siguiente paso pendiente (escritorio/APK)
 
 - Probar `corrector_test_gui.py` en Windows con pantalla (la lógica está cubierta
