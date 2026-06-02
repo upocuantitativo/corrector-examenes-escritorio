@@ -62,3 +62,7 @@ examenes_test.json
 examen/
 *.jpeg
 *.jpg
+
+# Subproyectos con repositorio propio / credenciales
+datos/
+apk/
