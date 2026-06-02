@@ -1,5 +1,41 @@
 # NEXT_STEP
 
+## ⏸️ PARA RETOMAR (estado a 2026-06-02)
+
+### Dónde está todo
+- **Proyecto unificado en `C:\CorrectorExamenes`** (abrir Claude Code AQUÍ).
+  - escritorio: `*.py`, `corrector_test_gui.py`, `CORRECTOR_TEST.bat`, tests, `examenes.db`, `alumnos.csv`.
+  - `corrector_movil\` = PWA (repo GitHub **corrector-examenes**), publicada en
+    https://upocuantitativo.github.io/corrector-examenes/
+  - `datos\` = modelo + entrenamiento (repo **corrector-examenes-datos**) +
+    `datos\worker\` (Worker Cloudflare).
+  - `apk\` = proyecto Android (compila en sitio, ruta sin acento).
+  - **`corrector-examenes.apk`** = el instalable para el móvil.
+- 3 repos GitHub (cuenta `upocuantitativo`): corrector-examenes (PWA),
+  corrector-examenes-escritorio (este), corrector-examenes-datos (modelo).
+
+### Estado: TODO FUNCIONANDO
+- PWA con flujo guiado (calibración con lupa → corrección por página → dudas una a una)
+  y puntuación configurable por examen. SW v6.
+- **Fase 2 (aprendizaje) OPERATIVA end-to-end**: Worker
+  `https://corrector-examenes-ingest.manolochaves.workers.dev`
+  (API_KEY `vTLN3T7HjQPVTpyy0LJCXWp6`, GH_TOKEN = token clásico scope `repo`).
+  App → Worker → `samples/` → Action "Entrenar modelo" (verde) → `model.json` → app.
+
+### SIGUIENTE PASO PENDIENTE (al retomar)
+1. **Instalar `corrector-examenes.apk` en el móvil** (orígenes desconocidos → Instalar).
+2. En la app, **apartado 5**: poner URL del Worker + clave `vTLN3T7HjQPVTpyy0LJCXWp6`
+   (subida automática de ejemplos).
+3. **Borrar la carpeta vieja** `C:\Documents\EDUCACIÓN\examenes` (no se pudo en
+   caliente porque la sesión la usaba). Cerrar Claude Code, borrarla y reabrir en
+   `C:\CorrectorExamenes`.
+4. **Probar en exámenes reales**: calibrar un modelo (lupa), corregir, resolver
+   dudas. Acumular **≥30 ejemplos** para que el modelo pase de heurístico a entrenado.
+5. (Opcional) Revocar definitivamente el primer token fine-grained que se pegó en
+   el chat, si aún existe: https://github.com/settings/tokens?type=beta
+
+---
+
 ## Hecho (sesión 2026-06-01) — Versión escritorio del corrector TIPO TEST + APK
 
 A partir del prototipo y la forma de corregir a los que se llegó en la PWA
